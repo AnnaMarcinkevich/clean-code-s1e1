@@ -85,12 +85,12 @@ var editTask=function(){
     var editInput=listItem.querySelector('input[type=text]');
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".list-of-tasks__button-edit");
-    var containsClass=listItem.classList.contains("list__item_editmode");
+    var containsClass=listItem.classList.contains("list__item_edit-mode");
     console.log("HII");
-    //If class of the parent is .list__item_editmode
+    //If class of the parent is .list__item_edit-mode
     if(containsClass){
 
-        //switch to .list__item_editmode
+        //switch to .list__item_edit-mode
         //label becomes the inputs value.
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
@@ -99,8 +99,8 @@ var editTask=function(){
         editBtn.innerText="Save";
     }
 
-    //toggle .editmode on the parent.
-    listItem.classList.toggle("list__item_editmode");
+    //toggle .edit-mode on the parent.
+    listItem.classList.toggle("list__item_edit-mode");
 };
 
 
