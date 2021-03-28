@@ -17,7 +17,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header-container{ text-align: center;
   }
@@ -37,15 +37,15 @@
   display: flex;
 }
 .task-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .task-list__item, .comleted-title {
-  list-style:none;
+  list-style: none;
 }
 .add-container__task,.task-list__text-edit,.task-list__checkbox,
 .add-container__btn,.task-list__btn-edit,.task-list__btn-del{
-  outline:none;
+  outline: none;
 }
 .add-container__btn,.task-list__btn-edit,.task-list__btn-del {
   background: none;
@@ -145,14 +145,14 @@
 
 /* edit task */
 .task-list__text-edit {
-  display:none
+  display: none
 }
 
 .task-list__item_edit-mode .task-list__text-edit {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-list__item_edit-mode .task-list__task-text {
-  display:none;
+  display: none;
 }
