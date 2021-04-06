@@ -114,6 +114,10 @@
   color: #333;
 }
 
+.top-section {
+  margin-top: 16px;
+}
+
 /* new task */
 .top-section__title {
   display: block;
